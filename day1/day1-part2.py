@@ -2,7 +2,6 @@
 file = open("day1_input.txt")
 numlist = file.read()
 numlist = list(numlist)
-print(numlist)
 
 halfway = int(len(numlist) / 2)
 doublelist = numlist + numlist
@@ -11,6 +10,5 @@ for index in range(len(numlist)):
     if numlist[index] == doublelist[index + halfway]:
         print("Adding {0} to the total, total: {1}".format(doublelist[index], total))
         total += int(doublelist[index])
-print(total)
 
-print(halfway)
+print(total)
