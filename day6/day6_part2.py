@@ -1,6 +1,5 @@
 
 starting = [2, 8, 8, 5, 4, 2, 3, 1, 5, 5, 1, 2, 15, 13, 5, 14]
-test = [0, 2, 7, 0]
 position_dictionary = []
 previous_memory = starting.copy()
 new_memory = []
@@ -35,8 +34,6 @@ while not repeat:
         except IndexError:
             highest_pos = -1
 
-print(position_dictionary)
-print(len(position_dictionary))
 repeat_pos = position_dictionary.index(repeated_mem)
 print(position_dictionary.index(repeated_mem))
 print(position_dictionary.index(repeated_mem, repeat_pos + 1))
