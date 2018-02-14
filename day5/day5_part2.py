@@ -12,7 +12,10 @@ def move_help(move, index):
     go_to = move[index]
     try:
         check = move[index + go_to]
-        move[index] += 1
+        if go_to >= 3:
+            move[index] -= 1
+        else:
+            move[index] += 1
         return index + go_to
     except IndexError:
         return None
