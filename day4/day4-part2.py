@@ -1,6 +1,5 @@
 
-file = open("day4/day4_input.txt")
-
+file = open("day4_input.txt")
 passphraselist = []
 
 for line in file:
