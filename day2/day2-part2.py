@@ -1,4 +1,4 @@
-# Part 1
+
 file = open("day2_input.txt")
 numlist = []
 for line in file:
@@ -14,7 +14,7 @@ for rows in numlist:
             for num2 in range(len(rows) - 1):
                 if num != num2:
                     if rows[num] % rows[num2] == 0:
-                        checksum += rows[num] / rows[num2]
+                        checksum += rows[num] // rows[num2]
                         found = True
 
 print(checksum)
