@@ -11,4 +11,4 @@ for index in range(len(numlist)):
         print("Adding {0} to the total, total: {1}".format(doublelist[index], total))
         total += int(doublelist[index])
 
-print(total)
+print("Halfway captcha solution is:", total)

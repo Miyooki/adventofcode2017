@@ -19,4 +19,4 @@ for phrases in passphraselist:
     if not repeat:
         count += 1
 
-print(count)
+print("Number of valid passphrases:", count)

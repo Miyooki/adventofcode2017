@@ -14,6 +14,7 @@ def move_help(move, index):
         check = move[index + go_to]
         move[index] += 1
         return index + go_to
+        
     except IndexError:
         return None
 
@@ -26,4 +27,4 @@ while True:
     if current_index == None:
         break
     
-print(steps)
+print("It takes {0} steps to reach the exit".format(steps))

@@ -10,4 +10,4 @@ for rows in numlist:
     rows = [int(i) for i in rows]
     checksum += max(rows) - min(rows)
 
-print(checksum)
+print("Checksum for spreadsheet is:", checksum)

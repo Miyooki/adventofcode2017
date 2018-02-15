@@ -12,4 +12,4 @@ for index in range(len(numlist) - 1):
 if numlist[-1] == numlist[0]:
     total += int(numlist[-1])
 
-print(total)
+print("Captcha solution is:", total)

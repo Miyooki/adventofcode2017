@@ -32,4 +32,4 @@ for phrases in passphraselist:
     if not anagram:
         count += 1
 
-print(count)
+print("Number of valid anagram passphrases:", count)

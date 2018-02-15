@@ -17,4 +17,4 @@ for rows in numlist:
                         checksum += rows[num] // rows[num2]
                         found = True
 
-print(checksum)
+print("Evenly divisible checksum for spreadsheet is:", checksum)
