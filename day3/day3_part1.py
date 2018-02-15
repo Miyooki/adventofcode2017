@@ -1,5 +1,5 @@
 
-TARGET = 265149
+TARGET = int(open("day3_input.txt").read())
 
 def move_up(x, y):
     return x, y + 1
@@ -18,8 +18,7 @@ count = 0
 
 for steps in range(TARGET):
     count += 1
-    move_right(coordinates)
+    move_right(coordinates[0], coordinates[1])
     print("At step {0}, coordinate: {1}".format(count, coordinates))
 
 print(coordinates)
-    
