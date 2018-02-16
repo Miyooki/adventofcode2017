@@ -18,6 +18,7 @@ def reg_change(command):
 def reg_help(command):
     if register.get(command[0]) == None:
         register[command[0]] = 0
+        
     if register.get(command[4]) == None:
         register[command[4]] = 0
 
