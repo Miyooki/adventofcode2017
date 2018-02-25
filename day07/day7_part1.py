@@ -32,8 +32,8 @@ while not bottom:
 
     if sub_tower(current, towers) != None:
         if sub_tower(sub_tower(current, towers), towers) == None:
-            bottom = True
             print(sub_tower(current, towers))
+            bottom = True
         else:
             current = sub_tower(current, towers)
             
