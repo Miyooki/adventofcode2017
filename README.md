@@ -24,10 +24,15 @@ Completed:
 Timeline:
 
 1/29/2018 - Started solving
+
 2/14/2018 - 10 Stars
+
 2/25/2018 - 20 Stars
+
 ? - 30 Stars
+
 ? - 40 Stars
+
 ? - 50 Stars (Finished)
 
 ~ Yuki > w <
